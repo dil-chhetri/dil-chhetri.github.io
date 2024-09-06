@@ -5,6 +5,7 @@ import githubImage from "./assets/images/github-mark-white.png"
 import linkedInImage from "./assets/images/LI-In-Bug.png";
 import gmailImage from "./assets/images/gmail.png";
 import Projects from "./components/Projects";
+import ViewDownloadCV from "./components/ViewDownloadCV";
 
 
  class App extends Component  {
@@ -49,8 +50,10 @@ import Projects from "./components/Projects";
     <div className="">
         <Profile username={user}  title={title} />
         <Connect connects={connects} />
-  
+        <ViewDownloadCV />
         <Projects projects={projects}  />
+     
+
     </div>
    )
 }

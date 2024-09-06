@@ -7,7 +7,7 @@ const getColorClass = (index) => {
 
 const Project = ({ project: [url, name, abbreviation] }) => {
     return (
-        <a href={url} className='project-link inline'>
+        <a href={url} className='project-link inline '>
             <abbr className='abbr no-underline' title={name}>{abbreviation}</abbr>
         </a>
     );
